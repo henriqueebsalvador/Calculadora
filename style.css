@@ -1,4 +1,4 @@
-* {
+{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
@@ -63,4 +63,49 @@ input {
 #resultado {
     font-weight: bold;
     color: #ff9500;
+}
+
+.btn {
+    border: none;
+    border-radius: 50%;
+    height: 60px;
+    width: 60px;
+    font-size: 24px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.orange {
+    background-color: #ff9500;
+    color: white;
+}
+
+.dark-gray {
+    background-color: #505050;
+    color: white;
+    grid-column: span 4;
+    border-radius: 30px;
+    width: 100%;
+    margin-top: 10px;
+}
+
+.erro {
+    color: #ff5f56;
+    font-size: 12px;
+    text-align: center;
+    margin-top: 10px;
+    height: 15px;
+}
+
+.red {
+    background-color: #ff5f56;
+}
+
+.yellow {
+    background-color: #ffbd2e;
+}
+
+.green {
+    background-color: #27c93f;
 }
