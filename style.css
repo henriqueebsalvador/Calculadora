@@ -35,3 +35,32 @@ body {
     display: flex;
     gap: 10px;
 }
+
+input {
+    background-color: transparent;
+    border-bottom: 1px solid #333;
+    color: white;
+    font-size: 32px;
+    text-align: center;
+    width: 100%;
+    padding: 5px;
+}
+
+.buttons-grid {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 10px;
+    padding: 20px;
+}
+
+.texto-resultado {
+    color: white;
+    padding: 0 20px;
+    font-size: 20px;
+    text-align: center;
+}
+
+#resultado {
+    font-weight: bold;
+    color: #ff9500;
+}
